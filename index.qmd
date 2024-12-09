@@ -134,7 +134,13 @@ emissions_long_subset = emissions_long.query(
 
 
 # Create line chart. Year should be on the x-axis, emissions on the y-axis, and color should be by country.
-fig_chart = px.line(emissions_long_subset, x="year", y="emissions", color="country")
+fig_chart = px.line(
+    emissions_long_subset,
+    x="year",
+    y="emissions",
+    color="country",
+    title="CO2 Emissions (1990-2022)",
+)
 
 ```
 
