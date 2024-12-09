@@ -103,7 +103,7 @@ fig_map = px.choropleth(
 
 
 
-Below is a brief summary of global CO₂ emissions from 1990-2022. Included is a table demonstrating relative and absolute change in emissions from each country, a chart that shows total CO₂ emissions from the top 5 most populous countries, and an animated choropleth map that displays the global change in emissions over time.
+Below is a brief summary of global CO₂ emissions by country from 1990-2022. The report contains an interactive table demonstrating relative and absolute change in emissions between 2020 and 2022, a chart that shows total CO₂ emissions from the top 5 most populous countries, and an animated choropleth map that displays the global change in emissions over time.
 
 
 
